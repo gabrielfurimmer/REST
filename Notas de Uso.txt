@@ -1,0 +1,4 @@
+Se crea servicio Rest agregando las dependencias en el pom y los parámetros en web y una ruta para posteriormente lograr levantarlo.
+En la clase ClienteRestGabriel se realiza el consumo del servicio creado para fines de pruebas.
+Es un servicio con dos parámetros: auto y color, la respuesta será una variable boolean.
+Si el auto y el color se encuentran listados en el servicio, el colorpermitido será true, en caso contrario false.
